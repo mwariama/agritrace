@@ -1,5 +1,4 @@
 <?php
-// reports.php - Complete Reports & Analytics for AgriMarketplace Admin Panel
 
 // Start output buffering
 ob_start();
