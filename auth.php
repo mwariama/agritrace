@@ -7,7 +7,8 @@ header('Access-Control-Allow-Origin: *');
 header('Access-Control-Allow-Methods: GET, POST, OPTIONS');
 header('Access-Control-Allow-Headers: Content-Type');
 
-// Handle preflight OPTIONS request
+
+
 if ($_SERVER['REQUEST_METHOD'] === 'OPTIONS') {
     http_response_code(200);
     exit();
@@ -16,7 +17,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'OPTIONS') {
 // Include database connection
 require_once 'database.php';
 
-// Get request action
 $action = $_GET['action'] ?? '';
 
 try {
@@ -45,7 +45,6 @@ try {
     echo json_encode(['error' => 'Database error occurred']);
 }
 
-// ==================== LOGIN HANDLER ====================
 
 function handleLogin($pdo) {
     try {
@@ -139,7 +138,7 @@ function handleLogin($pdo) {
     }
 }
 
-// ==================== SIGNUP HANDLER ====================
+
 
 function handleSignup($pdo) {
     try {
@@ -239,7 +238,7 @@ function handleSignup($pdo) {
     }
 }
 
-// ==================== LOGOUT HANDLER ====================
+
 
 function handleLogout() {
     // Destroy the session
@@ -259,7 +258,7 @@ function handleLogout() {
     echo json_encode(['success' => true, 'message' => 'Logged out successfully']);
 }
 
-// ==================== CHECK SESSION ====================
+
 
 function checkSession() {
     if (isset($_SESSION['logged_in']) && $_SESSION['logged_in'] === true) {
@@ -277,7 +276,7 @@ function checkSession() {
     }
 }
 
-// ==================== HELPER FUNCTIONS ====================
+
 
 function logSystemAction($pdo, $userId, $action, $entityType, $entityId, $oldData, $newData) {
     try {
