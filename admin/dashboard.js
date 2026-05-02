@@ -39,7 +39,7 @@ const SidebarManager = {
             document.body.appendChild(toggleBtn);
         }
         
-        // Create overlay if it doesn't exist
+        
         if (!document.querySelector('.sidebar-overlay')) {
             const overlay = document.createElement('div');
             overlay.className = 'sidebar-overlay';
@@ -625,7 +625,7 @@ function renderUserManagement() {
     contentArea.innerHTML = html;
 }
 
-// Render placeholder for other pages
+
 function renderPlaceholder() {
     if (!contentArea) return;
     
