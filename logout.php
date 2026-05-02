@@ -1,7 +1,5 @@
 <?php
-// logout.php - Logout handler for AgriMarketplace
 
-// Start session if not already started
 if (session_status() === PHP_SESSION_NONE) {
     session_start();
 }
