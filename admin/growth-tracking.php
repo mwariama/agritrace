@@ -1,8 +1,5 @@
 <?php
-// growth-tracking.php - Growth Tracking Management for AgriMarketplace Admin Panel
-// Uses existing database tables: planting_requests, crops, growth_stages, marketplace_items
 
-// Start output buffering
 ob_start();
 
 // Include navigation system
