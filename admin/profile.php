@@ -132,7 +132,7 @@ if ($isApiRequest) {
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     
     <style>
-        /* Additional inline styles */
+        
         .context-menu {
             position: absolute;
             background: var(--card-bg);
