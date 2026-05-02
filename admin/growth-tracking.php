@@ -91,7 +91,7 @@ if ($isApiRequest) {
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     
     <style>
-        /* Growth Tracking specific styles */
+        
         .growth-container {
             max-width: 1400px;
             margin: 0 auto;
