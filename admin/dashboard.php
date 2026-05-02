@@ -1,7 +1,5 @@
 <?php
-// dashboard.php - Dashboard for AgriMarketplace Admin Panel
 
-// Start output buffering
 ob_start();
 
 // Include navigation system
@@ -80,7 +78,7 @@ if (isset($_GET['endpoint'])) {
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     
     <style>
-        /* Additional dashboard-specific styles */
+       
         .dashboard-home {
             max-width: 1600px;
             margin: 0 auto;
