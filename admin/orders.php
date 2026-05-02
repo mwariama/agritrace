@@ -1,6 +1,4 @@
 <?php
-// orders.php - Orders & Transactions Management for AgriMarketplace Admin Panel
-
 // Start output buffering
 ob_start();
 
