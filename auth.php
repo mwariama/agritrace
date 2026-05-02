@@ -1,5 +1,5 @@
 <?php
-// Start session at the very beginning
+
 session_start();
 
 header('Content-Type: application/json');
