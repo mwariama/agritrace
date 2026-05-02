@@ -1,10 +1,10 @@
 <?php
 function getDBConnection() {
    
-    $host = 'sql305.infinityfree.com'; 
-    $dbname = 'if0_41288892_agritrace'; 
-    $username = 'if0_41288892'; 
-    $password = 'TSU9kBkUOHFs'; 
+    $host = ''; 
+    $dbname = ''; 
+    $username = ''; 
+    $password = ''; 
     
     try {
         $pdo = new PDO(
