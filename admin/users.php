@@ -1,7 +1,5 @@
 <?php
-// users.php - User Management for AgriMarketplace Admin Panel
 
-// Include navigation system (handles authentication automatically)
 require_once 'admin_navigation.php';
 
 // Initialize navigation with authentication check
