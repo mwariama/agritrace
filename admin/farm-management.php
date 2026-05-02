@@ -1,6 +1,4 @@
-<?php
-// farm-management.php - Complete Farm Management for AgriMarketplace Admin Panel
-
+<?ph
 // Start output buffering
 ob_start();
 
