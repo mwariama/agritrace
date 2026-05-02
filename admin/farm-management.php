@@ -106,8 +106,6 @@ if ($isApiRequest) {
     
     <!-- Base navigation styles -->
     <?php echo generateNavigationCSS(); ?>
-    
-    <!-- Page specific styles -->
     <link rel="stylesheet" href="farm-management.css">
     
     <!-- Fonts -->
@@ -119,7 +117,7 @@ if ($isApiRequest) {
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     
     <style>
-        /* Additional inline styles */
+       
         .context-menu {
             position: absolute;
             background: var(--card-bg);
