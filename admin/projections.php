@@ -1,6 +1,4 @@
-<?php
-// projections.php - Crop Yield & Revenue Projections for AgriMarketplace Admin Panel
-
+<?ph
 // Start output buffering
 ob_start();
 
