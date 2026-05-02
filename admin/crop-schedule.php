@@ -1,18 +1,16 @@
 <?php
-// crop-schedule.php - Crop Schedule Management for AgriMarketplace Admin Panel
 
-// Start output buffering
 ob_start();
 
 // Include navigation system
 require_once 'admin_navigation.php';
 
-// Initialize navigation (checks auth automatically)
+
 $nav_data = initializeAdminNavigation('Crop Schedule', 'crop-schedule');
 
-// Check if this is an API endpoint request
+
 if (isset($_GET['endpoint'])) {
-    // Clear output buffer for API response
+    
     ob_clean();
     
     // Set JSON headers
