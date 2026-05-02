@@ -1,5 +1,5 @@
 <?php
-// profile.php - My Profile Management for AgriMarketplace Admin Panel
+
 
 // Start output buffering
 ob_start();
